@@ -1,0 +1,44 @@
+table
+{
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    place-items: center;
+    height: 500px;
+    width: 470px;
+    border-color: black;
+}
+
+body
+{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.dis
+{
+    width: 96%;
+    height: 80%;
+    font-size: xx-large;
+    background-color: lightcyan;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+table [type=button]
+{
+    width:80%;
+    height: 70%;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #495250;
+    color: white;
+
+}
+
+table [type=button]:hover
+{
+    background-color: black;
+    color: white;
+}

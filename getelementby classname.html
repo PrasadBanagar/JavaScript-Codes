@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The element object</h1>
+    <h2></h2>
+
+    <div>
+        <p class="child">I am a paragraph.</p>
+        <p class="child">I am a paragraph.</p>
+        <p class="child">I am a paragraph.</p>
+    </div>
+
+    <p>Click "change" to change the color of the second paragraph with class="child":</p>
+
+    <button onclick="myFunction()">Change</button>
+
+    <script>
+        function myFunction()
+        {
+            var element=document.getElementsByClassName("child")[1].style.color="red";
+        }
+    </script>
+</body>
+</html>
